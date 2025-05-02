@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(135deg, #fffbe6 0%, #ffe5b4 100%);
+    min-height: 100vh;
+}
+.navbar {
+    background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(255, 179, 71, 0.15);
+}
+.btn-danger, .btn-secondary {
+    border-radius: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.btn-danger {
+    background: linear-gradient(90deg, #ff7043 0%, #ffb347 100%);
+    color: #fff;
+    border: none;
+}
+.btn-danger:hover {
+    background: linear-gradient(90deg, #ffb347 0%, #ff7043 100%);
+    color: #fff;
+}
+.btn-secondary {
+    background: linear-gradient(90deg, #ffcc33 0%, #ffb347 100%);
+    color: #7c4700;
+    border: none;
+}
+.btn-secondary:hover {
+    background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+    color: #fff;
+}
+.form-label i, .card-title i {
+    color: #ff7043;
+    margin-right: 4px;
+}
+.card-header {
+    background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+    color: #7c4700;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #7c4700 !important;
+    letter-spacing: 1px;
+}
+.main-title {
+    color: #7c4700;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 2px 8px #ffe5b4;
+    letter-spacing: 1px;
+}
+
